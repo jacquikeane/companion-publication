@@ -1,0 +1,127 @@
+============================================================
+========== ParsEval Summary
+============================================================
+
+Started:                21 Nov 2015, 03:32PM
+Reference annotations:  Ldonovani_BPK282A1.noseq.gff3
+Prediction annotations: result_withHints/pseudo.out.gff3
+Executing command:      /nfs/users/nfs_s/ss34/AEGeAn/bin/parseval -s Ldonovani_BPK282A1.noseq.gff3 result_withHints/pseudo.out.gff3 
+
+  Sequences compared
+    Ld01_v01s1
+    Ld02_v01s1
+    Ld03_v01s1
+    Ld04_v01s1
+    Ld05_v01s1
+    Ld06_v01s1
+    Ld07_v01s1
+    Ld08_v01s1
+    Ld09_v01s1
+    Ld10_v01s1
+    Ld11_v01s1
+    Ld12_v01s1
+    Ld13_v01s1
+    Ld14_v01s1
+    Ld15_v01s1
+    Ld16_v01s1
+    Ld17_v01s1
+    Ld18_v01s1
+    Ld19_v01s1
+    Ld20_v01s1
+    Ld21_v01s1
+    Ld22_v01s1
+    Ld23_v01s1
+    Ld24_v01s1
+    Ld25_v01s1
+    Ld26_v01s1
+    Ld27_v01s1
+    Ld28_v01s1
+    Ld29_v01s1
+    Ld30_v01s1
+    Ld31_v01s1
+    Ld32_v01s1
+    Ld33_v01s1
+    Ld34_v01s1
+    Ld35_v01s1
+    Ld36_v01s1
+
+  Gene loci................................8501
+    shared.................................7747
+    unique to reference....................213
+    unique to prediction...................541
+
+  Reference annotations
+    genes..................................7965
+      average per locus....................0.937
+    transcripts............................7965
+      average per locus....................0.937
+      average per gene.....................1.000
+
+  Prediction annotations
+    genes..................................8295
+      average per locus....................0.976
+    transcripts............................8295
+      average per locus....................0.976
+      average per gene.....................1.000
+
+  Total comparisons........................7747
+    perfect matches........................6963 (89.9%)
+      avg. length..........................1843.88 bp
+      avg. # refr exons....................1.00
+      avg. # pred exons....................1.00
+      avg. refr CDS length.................614.63 aa
+      avg. pred CDS length.................614.63 aa
+    perfect matches with mislabeled UTRs...0 (0.0%)
+    CDS structure matches..................0 (0.0%)
+    exon structure matches.................0 (0.0%)
+    UTR structure matches..................0 (0.0%)
+    non-matches............................784 (10.1%)
+      avg. length..........................2755.56 bp
+      avg. # refr exons....................1.03
+      avg. # pred exons....................1.31
+      avg. refr CDS length.................719.85 aa
+      avg. pred CDS length.................798.70 aa
+
+  CDS structure comparison
+    reference CDS segments.................7769
+      match prediction.....................7014 (90.3%)
+      don't match prediction...............755 (9.7%)
+    prediction CDS segments................7993
+      match reference......................7014 (87.8%)
+      don't match reference................979 (12.2%)
+    Sensitivity............................0.903
+    Specificity............................0.878
+    F1 Score...............................0.890
+    Annotation edit distance...............0.110
+
+  Exon structure comparison
+    reference exons........................7769
+      match prediction.....................7014 (90.3%)
+      don't match prediction...............755 (9.7%)
+    prediction exons.......................7993
+      match reference......................7014 (87.8%)
+      don't match reference................979 (12.2%)
+    Sensitivity............................0.903
+    Specificity............................0.878
+    F1 Score...............................0.890
+    Annotation edit distance...............0.110
+
+  UTR structure comparison
+    reference UTR segments.................0
+      match prediction.....................0 (--)
+      don't match prediction...............0 (--)
+    prediction UTR segments................0
+      match reference......................0 (--)
+      don't match reference................0 (--)
+    Sensitivity............................--
+    Specificity............................--
+    F1 Score...............................--
+    Annotation edit distance...............--
+
+  Nucleotide-level comparison      CDS          UTRs         Overall   
+    Matching coefficient:          0.971        1.000        0.961
+    Correlation coefficient:       0.411        --           --        
+    Sensitivity:                   0.991        --           --        
+    Specificity:                   0.979        --           --        
+    F1 Score:                      0.985        --           --        
+    Annotation edit distance:      0.015        --           --        

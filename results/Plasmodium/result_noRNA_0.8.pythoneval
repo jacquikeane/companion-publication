@@ -1,0 +1,18 @@
+#Annotation GFF: Pfalciparum.ref.gff3
+#Prediction GFF: result_noRNA_0.8/pseudo.out.gff3
+Gene-boundary sensitivity partial = 5182 / 5491 = 94.37% #% of annotation models having a partial prediction match
+Gene-boundary specificity partial = 5157 / 5311 = 97.10% #% of prediction models having a partial annotation match
+Gene-boundary sensitivity complete = 5003 / 5491 = 91.11% #% of annotation models having a complete prediction match
+Gene-boundary specificity complete = 5003 / 5311 = 94.20% #% of prediction models having a complete annotation match
+MRNA sensitivity partial = 5173 / 5364 = 96.44% #% of annotation models having a partial prediction match
+MRNA specificity partial = 5087 / 5245 = 96.99% #% of prediction models having a partial annotation match
+MRNA sensitivity complete = 5015 / 5364 = 93.49% #% of annotation models having a complete prediction match
+MRNA specificity complete = 4967 / 5245 = 94.70% #% of prediction models having a complete annotation match
+CDS sensitivity partial = 13496 / 14148 = 95.39% #% of annotation models having a partial prediction match
+CDS specificity partial = 13043 / 13315 = 97.96% #% of prediction models having a partial annotation match
+CDS sensitivity complete = 13243 / 14148 = 93.60% #% of annotation models having a complete prediction match
+CDS specificity complete = 12860 / 13315 = 96.58% #% of prediction models having a complete annotation match
+Nucleotide sensitivity = 11619616 / 12185466 = 95.36%
+Nucleotide specificity = 11619616 / 11719443 = 99.15%
+Amino Acid sensitivity = 3872991 / 4062078 = 95.35%
+Amino Acid specificity = 3872991 / 3906481 = 99.14%

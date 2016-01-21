@@ -1,0 +1,18 @@
+#Annotation GFF: Ldonovani_BPK282A1.noseq.gff3
+#Prediction GFF: result_withHints/pseudo.out.gff3
+Gene-boundary sensitivity partial = 7826 / 8077 = 96.89% #% of annotation models having a partial prediction match
+Gene-boundary specificity partial = 7830 / 8412 = 93.08% #% of prediction models having a partial annotation match
+Gene-boundary sensitivity complete = 6995 / 8077 = 86.60% #% of annotation models having a complete prediction match
+Gene-boundary specificity complete = 6994 / 8412 = 83.14% #% of prediction models having a complete annotation match
+MRNA sensitivity partial = 7751 / 7965 = 97.31% #% of annotation models having a partial prediction match
+MRNA specificity partial = 7754 / 8295 = 93.48% #% of prediction models having a partial annotation match
+MRNA sensitivity complete = 6967 / 7965 = 87.47% #% of annotation models having a complete prediction match
+MRNA specificity complete = 6966 / 8295 = 83.98% #% of prediction models having a complete annotation match
+CDS sensitivity partial = 7760 / 8098 = 95.83% #% of annotation models having a partial prediction match
+CDS specificity partial = 7778 / 8632 = 90.11% #% of prediction models having a partial annotation match
+CDS sensitivity complete = 7015 / 8098 = 86.63% #% of annotation models having a complete prediction match
+CDS specificity complete = 7014 / 8632 = 81.26% #% of prediction models having a complete annotation match
+Nucleotide sensitivity = 14405313 / 14676314 = 98.15%
+Nucleotide specificity = 14405313 / 15125844 = 95.24%
+Amino Acid sensitivity = 4797472 / 4892190 = 98.06%
+Amino Acid specificity = 4797472 / 5041953 = 95.15%

@@ -1,0 +1,106 @@
+============================================================
+========== ParsEval Summary
+============================================================
+
+Started:                24 Nov 2015, 01:27PM
+Reference annotations:  Pfalciparum.ref.gff3
+Prediction annotations: result_noRNA_0.5/pseudo.out.gff3
+Executing command:      /nfs/users/nfs_s/ss34/AEGeAn/bin/parseval -s Pfalciparum.ref.gff3 result_noRNA_0.5/pseudo.out.gff3 
+
+  Sequences compared
+    Pf3D7_01_v3
+    Pf3D7_02_v3
+    Pf3D7_03_v3
+    Pf3D7_04_v3
+    Pf3D7_05_v3
+    Pf3D7_06_v3
+    Pf3D7_07_v3
+    Pf3D7_08_v3
+    Pf3D7_09_v3
+    Pf3D7_10_v3
+    Pf3D7_11_v3
+    Pf3D7_12_v3
+    Pf3D7_13_v3
+    Pf3D7_14_v3
+    Pf_M76611
+
+  Gene loci................................5611
+    shared.................................5216
+    unique to reference....................48
+    unique to prediction...................347
+
+  Reference annotations
+    genes..................................5277
+      average per locus....................0.940
+    transcripts............................5364
+      average per locus....................0.956
+      average per gene.....................1.016
+
+  Prediction annotations
+    genes..................................5568
+      average per locus....................0.992
+    transcripts............................5568
+      average per locus....................0.992
+      average per gene.....................1.000
+
+  Total comparisons........................5221
+    perfect matches........................4985 (95.5%)
+      avg. length..........................2520.68 bp
+      avg. # refr exons....................2.53
+      avg. # pred exons....................2.53
+      avg. refr CDS length.................753.97 aa
+      avg. pred CDS length.................753.97 aa
+    perfect matches with mislabeled UTRs...0 (0.0%)
+    CDS structure matches..................0 (0.0%)
+    exon structure matches.................0 (0.0%)
+    UTR structure matches..................0 (0.0%)
+    non-matches............................236 (4.5%)
+      avg. length..........................3570.73 bp
+      avg. # refr exons....................3.75
+      avg. # pred exons....................3.70
+      avg. refr CDS length.................990.57 aa
+      avg. pred CDS length.................963.09 aa
+
+  CDS structure comparison
+    reference CDS segments.................13517
+      match prediction.....................13198 (97.6%)
+      don't match prediction...............319 (2.4%)
+    prediction CDS segments................13505
+      match reference......................13198 (97.7%)
+      don't match reference................307 (2.3%)
+    Sensitivity............................0.976
+    Specificity............................0.977
+    F1 Score...............................0.977
+    Annotation edit distance...............0.023
+
+  Exon structure comparison
+    reference exons........................13517
+      match prediction.....................13198 (97.6%)
+      don't match prediction...............319 (2.4%)
+    prediction exons.......................13505
+      match reference......................13198 (97.7%)
+      don't match reference................307 (2.3%)
+    Sensitivity............................0.976
+    Specificity............................0.977
+    F1 Score...............................0.977
+    Annotation edit distance...............0.023
+
+  UTR structure comparison
+    reference UTR segments.................0
+      match prediction.....................0 (--)
+      don't match prediction...............0 (--)
+    prediction UTR segments................0
+      match reference......................0 (--)
+      don't match reference................0 (--)
+    Sensitivity............................--
+    Specificity............................--
+    F1 Score...............................--
+    Annotation edit distance...............--
+
+  Nucleotide-level comparison      CDS          UTRs         Overall   
+    Matching coefficient:          0.998        1.000        0.996
+    Correlation coefficient:       0.988        --           --        
+    Sensitivity:                   0.998        --           --        
+    Specificity:                   0.999        --           --        
+    F1 Score:                      0.999        --           --        
+    Annotation edit distance:      0.001        --           --        
